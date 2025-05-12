@@ -1,0 +1,21 @@
+[project]
+authors = ["mokurin000 <1348292515a@gmail.com>"]
+channels = ["conda-forge"]
+name = "wordcloud-steam"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.3,<3.14"
+
+[pypi-dependencies]
+polars = ">=1.29.0, <2"
+fastexcel = ">=0.14.0, <0.15"
+xdialog = ">=1.2.0.1, <2"
+jieba = ">=0.42.1, <0.43"
+# 散点图
+altair = ">=5.5.0, <6"
+# 词云
+pyecharts = ">=2.0.8, <3"

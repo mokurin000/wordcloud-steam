@@ -1,0 +1,8 @@
+[mirrors]
+# redirect all requests for conda-forge to the prefix.dev mirror
+"https://conda.anaconda.org/conda-forge" = [
+    "https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/",
+]
+
+[pypi-config]
+index-url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
