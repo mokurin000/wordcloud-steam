@@ -1,3 +1,3 @@
 @echo off
 
-pixi run main.py
+pixi run python main.py
